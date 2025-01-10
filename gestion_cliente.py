@@ -7,7 +7,7 @@ def conectar_db():
     return psycopg2.connect(
         dbname="clinica_db",
         user="postgres",
-        password="clinica",
+        password="herbye25",
         host="127.0.0.1",
         port="5432"
     )

@@ -1,0 +1,7 @@
+CREATE TABLE clientes (
+    id SERIAL PRIMARY KEY,               -- Identificador único autoincremental
+    nombre VARCHAR(100) NOT NULL,        -- Nombre del cliente
+    apellido VARCHAR(100) NOT NULL,      -- Apellido del cliente
+    email VARCHAR(150) UNIQUE,           -- Correo electrónico único
+    telefono VARCHAR(15)                 -- Número de teléfono
+);
