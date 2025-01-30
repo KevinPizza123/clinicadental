@@ -5,7 +5,7 @@ from tkinter import messagebox, ttk
 # Configuración de la conexión
 def conectar_db():
     return psycopg2.connect(
-        dbname="clinica_db",
+        dbname="clinicadb",
         user="postgres",
         password="herbye25",
         host="127.0.0.1",
